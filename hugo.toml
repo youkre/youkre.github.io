@@ -21,10 +21,10 @@ theme = 'PaperMod'
 [params]
     math = true
     [params.assets]
-        favicon = "/static/favicon.ico"
-        apple_touch_icon = "/static/apple_touch_icon.png"
+        favicon = "/favicon.ico"
+        apple_touch_icon = "/apple_touch_icon.png"
     [params.label]
-        icon = "/static/youkre.svg"
+        icon = "/youkre.svg"
 
 [caches]
     [caches.images]
