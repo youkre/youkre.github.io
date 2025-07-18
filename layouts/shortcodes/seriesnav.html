@@ -1,0 +1,11 @@
+<nav class="pagination d-flex justify-content-between">
+    {{- with .Get "prev" }}
+    <a class="prev" href="{{ . }}">«&nbsp;上一章</a>
+    {{- end}}
+    {{- with .Get "toc" }}
+    <a href="{{ . }}">目录</a>
+    {{- end}}
+    {{- with .Get "next" }}
+    <a class="next ms-0" href="{{ . }}">下一章&nbsp;»</a>
+    {{- end}}
+</nav>

@@ -1,0 +1,27 @@
+baseURL = 'https://example.org/'
+languageCode = 'zh-cn'
+title = '优克'
+theme = 'PaperMod'
+
+[markup]
+    [markup.goldmark]
+        [markup.goldmark.parser]
+            [markup.goldmark.parser.attribute]
+                block = true
+                title = true
+        [markup.goldmark.renderer]
+            unsafe = true
+        [markup.goldmark.extensions]
+            [markup.goldmark.extensions.passthrough]
+                enable = true
+                [markup.goldmark.extensions.passthrough.delimiters]
+                    inline = [['$', '$'], ['\(', '\)']]
+                    block = [['\[', '\]'], ['$$', '$$']]
+
+[params]
+    math = true
+    [params.assets]
+        favicon = "/static/favicon.ico"
+        apple_touch_icon = "/static/apple_touch_icon.png"
+    [params.label]
+        icon = "/static/youkre.svg"
