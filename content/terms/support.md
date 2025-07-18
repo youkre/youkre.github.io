@@ -31,5 +31,5 @@ title: "欢迎来到优克支持中心"
 
 ## 隐私政策与用户协议
 
-- [隐私政策](https://youkre.github.io/terms/privacy-policy.html)
-- [用户协议](https://youkre.github.io/terms/user-agreement.html)
+- [隐私政策](https://youkre.github.io/terms/privacy-policy)
+- [用户协议](https://youkre.github.io/terms/user-agreement)
