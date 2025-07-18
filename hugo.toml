@@ -25,3 +25,7 @@ theme = 'PaperMod'
         apple_touch_icon = "/static/apple_touch_icon.png"
     [params.label]
         icon = "/static/youkre.svg"
+
+[caches]
+    [caches.images]
+        dir = ':cacheDir/images'
