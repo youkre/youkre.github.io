@@ -7,3 +7,4 @@
   * [3.2 评估语言模型：训练集与测试集](3.2-training-and-test-sets)
   * [3.3 评估语言模型：困惑度（Perplexity）](3.3-perplexity)
   * [3.4 从语言模型中采样句子](3.4-sampling-sentences)
+  * [3.5 对训练集的泛化与过拟合](3.5-generalizing-vs-overfitting)
