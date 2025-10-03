@@ -1,5 +1,5 @@
 ---
-title: ""
+title: "第5章 逻辑回归"
 summary: ""
 date: 2025-10-03T08:29:00+08:00
 ---
@@ -52,6 +52,6 @@ $$
 <nav class="pagination justify-content-between">
 <a href="../ch4-03">4.3 实例演示</a>
 <a href="../">目录</a>
-<a href="../ch5-01"></a>
+<a href="../ch5-01">5.1 Sigmoid函数</a>
 </nav>
 
