@@ -1,6 +1,7 @@
 ---
 title: "第3章 N元语言模型"
-date: '2025-07-19T23:55:38+08:00'
+summary: ""
+date: 2025-07-19T23:55:38+08:00
 ---
 
 <figure>
@@ -33,3 +34,11 @@ on guys all I of notice sidewalk three a sudden standing the
 在本章中，我们将介绍最简单的语言模型类型：**n元语言模型**。n元（n-gram）是指由 *n* 个词组成的序列：比如两个词组成的2元（我们称为**双词模型**或**bigram**），像“水的”或“的湖”；三个词组成的3元（**三词模型**或**trigram**），如“The water of”或“water of Walden”。我们也用“n-gram”这个词来指代一种概率模型(这造成了术语上有一点模糊)，它可以根据前面的 n-1 个词来估计下一个词的概率，从而为整个词序列分配概率。
 
 在后续章节中，我们将介绍更强大的**基于Transformer架构的神经网络大型语言模型**（见第9章）。但由于n元模型的形式化非常清晰且易于理解，我们将用它来介绍大型语言模型的一些核心概念，包括**训练集与测试集、困惑度（perplexity）、采样（sampling）以及插值（interpolation）**等。
+
+
+<nav class="pagination justify-content-between">
+<a href="../ch2-05">2.5 单词和子单词分词</a>
+<a href="../">目录</a>
+<a href="../ch3-01">3.1 N元模型</a>
+</nav>
+
