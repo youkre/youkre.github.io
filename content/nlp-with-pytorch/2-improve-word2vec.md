@@ -475,6 +475,6 @@ for epoch in range(10):
 <nav class="pagination justify-content-between">
 <a href="../1-word2vec">自然语言处理入门：从一句话到词向量——用PyTorch实现Word2Vec</a>
 <a href="../">目录</a>
-<span></span>
+<a href="../3-rnn">RNN：让神经网络学会“记笔记”</a>
 </nav>
 
