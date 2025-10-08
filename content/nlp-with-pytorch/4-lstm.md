@@ -1,6 +1,6 @@
 ---
 title: "LSTM：给神经网络装上“长期记忆”"
-summary: ""
+summary: "RNN记性不太好，如果文章太长，前面写的笔记就会慢慢模糊，甚至被新内容覆盖，用长短期记忆网络LSTM来改进"
 date: 2025-10-08T08:05:00+08:00
 ---
 
@@ -228,10 +228,17 @@ torch.save(model.state_dict(), state_file)
 
 LSTM 让模型不仅能记住上下文，还能分辨**什么是重要的、什么是次要的**。这是迈向真正“理解”语言的重要一步。
 
+---
+
+**参考资料：**
+
+- 斋藤康毅《深度学习进阶：自然语言处理》
+- PyTorch官方文档
+
 
 <nav class="pagination justify-content-between">
 <a href="../3-rnn">RNN：让神经网络学会“记笔记”</a>
 <a href="../">目录</a>
-<span></span>
+<a href="../5-seq2seq">Seq2Seq：教神经网络“中译英”——从一句话到一段话</a>
 </nav>
 
