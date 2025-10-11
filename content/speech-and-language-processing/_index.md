@@ -31,3 +31,5 @@
   - [5.9 模型的解释](ch5-09)
   - [5.10 进阶：梯度公式的推导](ch5-10)
   - [5.11 小结](ch5-11)
+- [CHAPTER 6 Vector Semantics and Embeddings](ch6)
+  - [6.1 Lexical Semantics](ch6-01)
