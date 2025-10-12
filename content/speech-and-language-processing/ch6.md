@@ -4,11 +4,15 @@ summary: ""
 date: 
 ---
 
-> 荃者所以在鱼，得鱼而忘荃 Nets are for ﬁsh;
-> Once you get the ﬁsh, you can forget the net.
-> 言者所以在意，得意而忘言 Words are for meaning;
-> Once you get the meaning, you can forget the words
-> -- 庄子(Zhuangzi), Chapter 26
+> 荃者所以在鱼，得鱼而忘荃
+>
+> Nets are for ﬁsh; Once you get the ﬁsh, you can forget the net.
+>
+> 言者所以在意，得意而忘言
+>
+> Words are for meaning; Once you get the meaning, you can forget the words
+>
+> -- 庄子(Zhuangzi), 第 26 篇
 
 洛杉矶以其遍布的沥青路面闻名，这些路面主要集中在高速公路上。但在城市中心还有另一片沥青区域——拉布雷亚沥青坑（La Brea tar pits），这里保存了数百万块来自更新世冰河时代末期的化石骨骼。其中一种化石就是刃齿虎（Smilodon），或称剑齿虎，其标志性的长犬齿令人过目难忘。大约五百万年前，在阿根廷和南美洲其他地区生活着另一种完全不同的剑齿虎——袋剑虎（Thylacosmilus）。袋剑虎是有袋类动物，而刃齿虎是胎盘哺乳动物，但袋剑虎也拥有长长的上犬齿，并且和刃齿虎一样，下颌具有保护性的骨质突缘。这两种哺乳动物的相似性是“平行进化”或“趋同进化”的众多例子之一：特定的环境或背景会导致不同物种演化出非常相似的结构（Gould, 1980）。
 
