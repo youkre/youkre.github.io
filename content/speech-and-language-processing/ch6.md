@@ -1,5 +1,5 @@
 ---
-title: "CHAPTER 6 Vector Semantics and Embeddings"
+title: "第6章 向量语义与词嵌入"
 summary: ""
 date: 
 ---
@@ -10,49 +10,18 @@ date:
 > Once you get the meaning, you can forget the words
 > -- 庄子(Zhuangzi), Chapter 26
 
-The asphalt that Los Angeles is famous for occurs mainly on its freeways. But
-in the middle of the city is another patch of asphalt, the La Brea tar pits, and this
-asphalt preserves millions of fossil bones from the last of the Ice Ages of the Pleis-
-tocene Epoch. One of these fossils is the Smilodon, or saber-toothed tiger, instantly
-recognizable by its long canines. Five million years ago or so, a completely different
-saber-tooth tiger called Thylacosmilus lived
-in Argentina and other parts of South Amer-
-ica. Thylacosmilus was a marsupial whereas
-Smilodon was a placental mammal, but Thy-
-lacosmilus had the same long upper canines
-and, like Smilodon, had a protective bone
-ﬂange on the lower jaw. The similarity of
-these two mammals is one of many examples
-of parallel or convergent evolution, in which particular contexts or environments
-lead to the evolution of very similar structures in different species (Gould, 1980).
+洛杉矶以其遍布的沥青路面闻名，这些路面主要集中在高速公路上。但在城市中心还有另一片沥青区域——拉布雷亚沥青坑（La Brea tar pits），这里保存了数百万块来自更新世冰河时代末期的化石骨骼。其中一种化石就是刃齿虎（Smilodon），或称剑齿虎，其标志性的长犬齿令人过目难忘。大约五百万年前，在阿根廷和南美洲其他地区生活着另一种完全不同的剑齿虎——袋剑虎（Thylacosmilus）。袋剑虎是有袋类动物，而刃齿虎是胎盘哺乳动物，但袋剑虎也拥有长长的上犬齿，并且和刃齿虎一样，下颌具有保护性的骨质突缘。这两种哺乳动物的相似性是“平行进化”或“趋同进化”的众多例子之一：特定的环境或背景会导致不同物种演化出非常相似的结构（Gould, 1980）。
 
-The role of context is also important in the similarity of a less biological kind
-of organism: the word. Words that occur in similar contexts tend to have similar
-meanings. This link between similarity in how words are distributed and similarity
-in what they mean is called the **distributional hypothesis**. The hypothesis was
-ﬁrst formulated in the 1950s by linguists like Joos (1950), Harris (1954), and Firth
-(1957), who noticed that words which are synonyms (like oculist and eye-doctor)
-tended to occur in the same environment (e.g., near words like eye or examined)
-with the amount of meaning difference between two words “corresponding roughly
-to the amount of difference in their environments” (Harris, 1954, p. 157).
+**语境**（context）的作用在另一种不那么生物性的“有机体”——词语——的相似性中也同样重要。出现在相似语境中的词语往往具有相似的含义。这种词语分布上的相似性与词义相似性之间的联系被称为**分布假说**（distributional hypothesis）。这一假说最早由20世纪50年代的语言学家如乔斯（Joos, 1950）、哈里斯（Harris, 1954）和弗斯（Firth, 1957）提出。他们注意到，同义词（如 oculist 和 eye-doctor）往往出现在相同的环境中（例如，靠近 eye 或 examined 等词），且两个词之间的语义差异“大致对应于它们环境中的差异程度”（Harris, 1954, 第157页）。
 
-In this chapter we introduce **vector semantics**, which instantiates this linguistic
-hypothesis by learning representations of the meaning of words, called **embeddings**,
-directly from their distributions in texts. These representations are used in every nat-
-ural language processing application that makes use of meaning, and the **static embeddings**
-we introduce here underlie the more powerful dynamic **orcontextualized embeddings**
-like **BERT** that we will see in Chapter 11.
+在本章中，我们将介绍**向量语义**（vector semantics），它通过直接从文本中的分布情况学习词语意义的表示——即**嵌入**（embeddings）——来实现这一语言学假说。这些表示被应用于所有涉及语义的自然语言处理任务中，我们在此介绍的**静态嵌入**（static embeddings）构成了更强大的动态**或上下文化嵌入**（contextualized embeddings）的基础，例如我们将在第11章中介绍的**BERT**。
 
-These word representations are also the ﬁrst example in this book of repre-
-**sentation learning**, automatically learning useful representations of the input text.
-Finding such **self-supervised** ways to learn representations of the input, instead of
-creating representations by hand via **feature engineering**, is an important focus of
-NLP research (Bengio et al., 2013).
+这些词语表示也是本书中出现的第一个**表示学习**（representation learning）的例子，即自动学习输入文本的有用表示。研究如何找到这类**自监督**（self-supervised）的方式来学习输入表示，而不是通过**特征工程**（feature engineering）手动创建表示，是当前NLP研究的一个重要方向（Bengio et al., 2013）。
 
 
 <nav class="pagination justify-content-between">
 <a href="../ch5-11">5.11 小结</a>
 <a href="../">目录</a>
-<a href="../ch6-01">6.1 Lexical Semantics</a>
+<a href="../ch6-01">6.1 词汇语义</a>
 </nav>
 
