@@ -37,7 +37,7 @@ on guys all I of notice sidewalk three a sudden standing the
 
 
 <nav class="pagination justify-content-between">
-<a href="../ch2-05">2.5 单词和子单词分词</a>
+<a href="../ch2-09">2.9 小结</a>
 <a href="../">目录</a>
 <a href="../ch3-01">3.1 N元模型</a>
 </nav>
