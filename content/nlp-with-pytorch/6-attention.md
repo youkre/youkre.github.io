@@ -358,6 +358,6 @@ AI 不会取代所有程序员，但它会**极大地放大那些真正理解它
 <nav class="pagination justify-content-between">
 <a href="../5-seq2seq">Seq2Seq：教神经网络“中译英”——从一句话到一段话</a>
 <a href="../">目录</a>
-<span></span>
+<a href="../7-transformer">Transformer：让神经网络学会“全局扫描”——从“逐字阅读”到“一眼看懂”</a>
 </nav>
 
