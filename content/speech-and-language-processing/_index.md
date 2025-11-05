@@ -1,5 +1,6 @@
-
-# 言语与语言处理
+---
+title: "言语与语言处理"
+---
 
 原文：[Speech and Language Processing (3rd ed. draft)](https://web.stanford.edu/~jurafsky/slp3/)
 
@@ -47,3 +48,15 @@
   - [6.6 点互信息（PMI）](ch6-06)
   - [6.7 tf-idf 或 PPMI 向量模型的应用](ch6-07)
   - [6.8 Word2vec](ch6-08)
+  - [6.9 嵌入向量的可视化](ch6-09)
+  - [6.10 Semantic properties of embeddings](ch6-10)
+  - [6.11 Bias and Embeddings](ch6-11)
+  - [6.12 Evaluating Vector Models](ch6-12)
+  - [6.13 Summary](ch6-13)
+- [第九章 Transformer](ch9)
+  - [9.1 注意力机制](ch9-01)
+  - [9.2 Transformer 模块](ch9-02)
+  - [9.3 使用单个矩阵 X 并行化计算](ch9-03)
+  - [9.4 输入：词元和位置的嵌入](ch9-04)
+  - [9.5 语言模型头](ch9-05)
+  - [9.6 总结](ch9-06)
