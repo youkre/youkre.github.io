@@ -1,5 +1,5 @@
 ---
-title: "第九章 Transformer"
+title: "第9章 Transformer"
 summary: ""
 date: 2025-11-01T21:04:00+08:00
 ---
@@ -39,7 +39,7 @@ Transformer 是一种具有特定结构的神经网络，其核心机制被称�
 
 
 <nav class="pagination justify-content-between">
-<a href="../ch6-13">6.13 Summary</a>
+<a href="../ch6-13">6.13 小结</a>
 <a href="../">目录</a>
 <a href="../ch9-01">9.1 注意力机制</a>
 </nav>
