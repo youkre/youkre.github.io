@@ -23,7 +23,7 @@ The water of Walden Pond is so beautifully ...
 
 ```text
 all of a sudden I notice three guys standing on the sidewalk。
-``
+```
 
 比下面这个词语顺序被打乱的版本出现的可能性要大得多：
 
@@ -47,11 +47,11 @@ n元（n-gram）是指由 *n* 个词组成的序列：比如两个词组成的2�
 我们也用“n-gram”这个词来指代一种概率模型(这造成了术语上有一点模糊)，它可以根据前面的 n-1 个词来估计下一个词的概率，从而为整个词序列分配概率。
 
 在后续章节中，我们将介绍更强大的**基于Transformer架构的神经网络大型语言模型**（见第9章）。
-但由于n元模型的形式化非常清晰且易于理解，我们将用它来介绍大型语言模型的一些核心概念，包括**训练集与测试集、困惑度（perplexity）、采样（sampling）以及插值（interpolation）**等。
+但由于n元模型的形式化非常清晰且易于理解，我们将用它来介绍大型语言模型的一些核心概念，包括**训练集与测试集**、**困惑度**（perplexity）、**采样**（sampling）以及**插值**（interpolation）等。
 
 
 <nav class="pagination justify-content-between">
-<a href="../ch2-09">2.9 小结</a>
+<a href="../ch2-09">2.9 最小编辑距离（Minimum Edit Distance）</a>
 <a href="../">目录</a>
 <a href="../ch3-01">3.1 N元模型</a>
 </nav>
