@@ -1,8 +1,12 @@
 ---
-title: "言语与语言处理"
+title: "自然语言处理导论(第3版)"
 ---
 
 原文：[Speech and Language Processing (3rd ed. draft)](https://web.stanford.edu/~jurafsky/slp3/)
+
+当前译文基于 Draft of August 24, 2025。
+
+译文仅供学习参考，请勿转载或用于商业用途。
 
 ## 目录
 
