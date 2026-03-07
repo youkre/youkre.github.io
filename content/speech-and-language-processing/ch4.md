@@ -1,23 +1,23 @@
 ---
-title: "第4章 罗辑回归与文本分类"
-summary: ""
-date: 2025-12-22T14:30:00+08:00
+title: 第4章 罗辑回归与文本分类
+summary: ''
+date: '2025-12-22T14:30:00+08:00'
 ---
 
-> En sus remotas p´aginas est´a escrito que los animales se dividen en:  
-> a. pertenecientes al Emperador  
-> b. embalsamados  
-> c. amaestrados  
-> d. lechones  
-> e. sirenas  
-> f. fabulosos  
-> g. perros sueltos  
-> h. incluidos en esta clasiﬁcaci ´on  
-> i. que se agitan como locos.  
-> j. innumerables.  
-> k. dibujados con un pincel ﬁn ´ısimo de pelo de camello  
-> l. etc ´etera.  
-> m. que acaban de romper el jarr ´on  
+> En sus remotas p´aginas est´a escrito que los animales se dividen en:<br>
+> a. pertenecientes al Emperador<br>
+> b. embalsamados<br>
+> c. amaestrados<br>
+> d. lechones<br>
+> e. sirenas<br>
+> f. fabulosos<br>
+> g. perros sueltos<br>
+> h. incluidos en esta clasiﬁcaci ´on<br>
+> i. que se agitan como locos.<br>
+> j. innumerables.<br>
+> k. dibujados con un pincel ﬁn ´ısimo de pelo de camello<br>
+> l. etc ´etera.<br>
+> m. que acaban de romper el jarr ´on<br>
 > n. que de lejos parecen moscas
 >
 > Borges (1964)
@@ -49,7 +49,7 @@ date: 2025-12-22T14:30:00+08:00
 
 在将文本标注为表达正面或负面立场的二分类任务中，某些词语（如 *awesome* 和 *love*，或 *awful* 和 *ridiculously*）具有很强的判别性，这一点从以下电影/餐厅评论的示例片段中可见一斑：
 
-> \+ ...awesome caramel sauce and sweet toasty almonds. I love this place!  
+> \+ ...awesome caramel sauce and sweet toasty almonds. I love this place!<br>
 > − ...awful pizza and ridiculously overpriced...
 
 文本分类任务有很多中。
@@ -59,10 +59,10 @@ date: 2025-12-22T14:30:00+08:00
 但分类之所以如此重要，还在于**语言建模**（language modeling）本身也可以被看作一种分类任务：每个词都可以被视为一个类别，因此预测下一个词，本质上就是将当前已有的上下文（context-so-far）分类到各个可能的“下一个词”类别中。
 正如我们后续将看到的，这一观点正是大型语言模型（large language models）的核心原理。
 
-本章所介绍的分类算法是逻辑回归（logistic regression），同样具有多方面的关键意义。  
+本章所介绍的分类算法是逻辑回归（logistic regression），同样具有多方面的关键意义。
 首先，逻辑回归与神经网络关系密切。
-正如第6章将要展示的，神经网络可以被理解为多个逻辑回归分类器层层堆叠而成。  
-其次，逻辑回归引入了若干对神经网络和语言模型至关重要的基本概念，例如 **sigmoid 函数**、**softmax 函数**、**logit**，以及用于模型学习的核心算法——**梯度下降**（gradient descent）。  
+正如第6章将要展示的，神经网络可以被理解为多个逻辑回归分类器层层堆叠而成。
+其次，逻辑回归引入了若干对神经网络和语言模型至关重要的基本概念，例如 **sigmoid 函数**、**softmax 函数**、**logit**，以及用于模型学习的核心算法——**梯度下降**（gradient descent）。
 最后，逻辑回归本身也是社会科学和自然科学中最重要的分析工具之一。
 
 

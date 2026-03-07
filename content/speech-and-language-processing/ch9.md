@@ -1,10 +1,11 @@
 ---
-title: "第 9 章 掩码语言模型"
-summary: ""
-date: 2025-12-19T14:08:00+08:00
+title: 第 9 章 掩码语言模型
+summary: ''
+date: '2025-12-19T14:08:00+08:00'
 ---
 
-> Larvatus prodeo（戴上面具，我继续前行）  
+> Larvatus prodeo（戴上面具，我继续前行）
+>
 > ——笛卡尔
 
 在前两章中，我们介绍了 Transformer 架构，并展示了如何将 Transformer 语言模型以**因果型**（causal）或从左至右的方式进行预训练。

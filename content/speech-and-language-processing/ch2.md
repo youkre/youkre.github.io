@@ -1,18 +1,19 @@
 ---
-title: "第2章 词与词元"
-summary: ""
-date: 2025-12-20T20:08:00+08:00
+title: 第 2 章 词与词元
+summary: ''
+date: '2025-12-20T20:08:00+08:00'
 ---
 
-> User: I need some help, that much seems certain.  
-> ELIZA: WHAT WOULD IT MEAN TO YOU IF YOU GOT SOME HELP  
-> User: Perhaps I could learn to get along with my mother.  
-> ELIZA: TELL ME MORE ABOUT YOUR FAMILY  
-> User: My mother takes care of me.  
-> ELIZA: WHO ELSE IN YOU FAMILY TAKES CARE OF YOU  
-> User: My father.  
-> ELIZA: YOUR FATHER  
-> User: You are like my father in some ways.  
+> 用户：我需要一些帮助，这一点似乎很明确。<br>
+> ELIZA：如果你得到了一些帮助，对你而言这意味着什么？<br>
+> 用户：也许我可以学会和我母亲相处。<br>
+> ELIZA：跟我多说说你的家人吧。<br>
+> 用户：我母亲照顾我。<br>
+> ELIZA：你家里还有谁照顾你？<br>
+> 用户：我父亲。<br>
+> ELIZA：你父亲。<br>
+> 用户：你在某些方面很像我父亲。
+>
 > Weizenbaum (1966)
 
 上述对话来自 **ELIZA**——一个早期的自然语言处理系统。该系统通过模仿罗杰斯学派心理治疗师（Rogerian psychotherapist）的回应方式，能够与用户进行有限的对话（Weizenbaum, 1066）。
@@ -44,7 +45,7 @@ BPE 利用字符序列的简单统计规律，归纳出一个子词（subword）
 
 
 <nav class="pagination justify-content-between">
-<span></span>
+<a href="../ch1">第 1 章 引言</a>
 <a href="../">目录</a>
 <a href="../ch2-01">2.1 词</a>
 </nav>
