@@ -1,7 +1,7 @@
 ---
 title: 第 1 章 引言
-summary: ''
 date: '2026-01-07T00:46:00+08:00'
+summary: ''
 ---
 
 > La dernière chose qu'on trouve en faisant un ouvrage est de savoir celle qu'il faut mettre la première.<br>

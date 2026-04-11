@@ -1,7 +1,7 @@
 ---
 title: 第 8 章 Transformer
-summary: ''
 date: '2025-11-01T21:04:00+08:00'
+summary: ''
 ---
 
 > “真正的记忆艺术在于专注。”

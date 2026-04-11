@@ -1,7 +1,7 @@
 ---
 title: 第4章 罗辑回归与文本分类
-summary: ''
 date: '2025-12-22T14:30:00+08:00'
+summary: ''
 ---
 
 > En sus remotas p´aginas est´a escrito que los animales se dividen en:<br>
