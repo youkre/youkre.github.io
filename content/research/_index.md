@@ -1,6 +1,8 @@
----
-title: 政治经济学
----
++++
+title = "政治经济学"
+transparent = true
+paginate_by = 10
++++
 
 一些学术思考
 

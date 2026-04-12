@@ -1,0 +1,35 @@
+{% extends "layout/center.html" %}
+
+{% block content %}
+<article>
+    <header>
+        <h1 class="text-center">{{ section.title }}</h1>
+    </header>
+
+    <ul>
+        {% for page in section.pages %}
+        <li><a href="{{ page.permalink | safe }}">{{ page.title }}</a></li>
+        {% endfor %}
+    </ul>
+
+    {% for page in paginator.pages %}
+    <div class="card mt-2 mb-2">
+        <div class="card-body">
+            <h5 class="card-title"><a href="{{ page.permalink }}">{{ page.title }}</a></h5>
+            <p class="card-text text-body-secondary">{{ page.summary }}</p>
+            <p class="card-text"><small class="text-body-secondary">{{page.year}}-{{page.month}}-{{page.day}}</small></p>
+        </div>
+    </div>
+    {% endfor %}
+
+    <nav class="pagination justify-content-between mt-2 mb-2">
+        {% if paginator.previous %}
+        <a href="{{ paginator.previous }}">Previous</a>
+        {% endif %}
+
+        {% if paginator.next %}
+        <a href="{{ paginator.next }}">Next</a>
+        {% endif %}
+    </nav>
+</article>
+{% endblock%}

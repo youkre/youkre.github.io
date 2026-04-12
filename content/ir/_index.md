@@ -1,6 +1,8 @@
----
-title: 过去、当下、未来
----
++++
+title = "历史、国际关系与政治学"
+transparent = true
+paginate_by = 10
++++
 
 历史、国际关系与政治学
 

@@ -1,0 +1,38 @@
+{% extends "layout/base.html" %}
+
+{% block main %}
+
+{% for sec_path in section.extra.sections %}
+{% set section = get_section(path=sec_path) %}
+<section class="row pt-3 pb-3">
+    <div class="col-12 col-lg-9 mx-auto">
+        <!-- 分区标题栏 -->
+        <div class="d-flex justify-content-between align-items-center mb-3 border-bottom pb-2">
+            <h2 class="h4 mb-0">
+            <a href="{{ section.permalink }}" class="text-decoration-none text-dark">
+                {{ section.title }}
+            </a>
+            </h2>
+            <a href="{{ section.permalink }}">更多 &rarr;</a>
+        </div>
+    </div>
+    <div class="col-12 col-lg-9 mx-auto">
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+            {% for page in section.pages | slice(end=3) %}
+            <div class="col">
+                <div class="card h-100">
+                    <div class="card-body">
+                        <h5 class="card-title"><a href="{{ page.permalink }}">{{ page.title }}</a></h5>
+                        <p class="card-text">{{ page.summary }}</p>
+                        <p class="card-text text-end"><a href="{{ page.permalink }}">阅读全文</a></p>
+                        <p class="card-text"><small class="text-body-secondary">{{page.year}}-{{page.month}}-{{page.day}}</small></p>
+                    </div>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+</section>
+{% endfor %}
+
+{% endblock main %}

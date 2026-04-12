@@ -1,0 +1,12 @@
+{% extends "layout/center.html" %}
+
+{% block content %}
+<article>
+    <header>
+        <h1 class="text-center">{{ page.title }}</h1>
+        <time datetime="{{ page.date }}">{{ page.year}}/{{ page.month }}/{{ page.day}}</time>
+    </header>
+
+    {{ page.content | safe }}
+</article>
+{% endblock%}

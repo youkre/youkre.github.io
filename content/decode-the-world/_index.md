@@ -1,6 +1,8 @@
----
-title: 解码世界
----
++++
+title = "解码世界"
+transparent = true
+paginate_by = 10
++++
 
 小说、随笔
 

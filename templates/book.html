@@ -1,0 +1,11 @@
+{% extends "layout/center.html" %}
+
+{% block content %}
+<article>
+    <header>
+        <h1 class="text-center">{{ section.title }}</h1>
+    </header>
+
+    {{ section.content | safe }}
+</article>
+{% endblock%}

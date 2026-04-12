@@ -1,6 +1,8 @@
----
-title: PyTorch自然语言处理入门
----
++++
+title = "PyTorch自然语言处理入门"
+transparent = true
+template = "book.html"
++++
 
 从零开始学习自然语言处理
 

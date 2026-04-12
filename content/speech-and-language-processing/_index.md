@@ -1,6 +1,9 @@
----
-title: 自然语言处理导论(第3版)
----
++++
+title = "自然语言处理导论(第3版)"
+description = "《Speech and Language Processing》（2025版草稿）中文版"
+template = "book.html"
+transparent = true
++++
 
 原文：[Speech and Language Processing (3rd ed. draft)](https://web.stanford.edu/~jurafsky/slp3/)
 

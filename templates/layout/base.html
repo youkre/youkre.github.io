@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>优克</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.8/css/bootstrap.min.css"/>
+    {% include "partials/css.html" %}
+    {% block extend_head %}
+    {% include "partials/mathjax.html" %}
+    {% endblock extend_head %}
+</head>
+<body id="top">
+
+{% block header %}
+{% include "partials/header.html" %}
+{% endblock header %}
+
+{% block top_banner %}{% endblock top_banner%}
+
+<main class="min-vh-100" role="main">
+    <div class="container">
+        {% block main %}{% endblock main %}
+    </div>
+</main>
+
+{% include "partials/footer.html" %}
+{% block extend_footer %}
+{% endblock extend_footer %}
+</body>
+</html>
