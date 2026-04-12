@@ -1,8 +1,16 @@
 {% extends "layout/base.html" %}
 
 {% block main %}
+{% set section_paths = [
+    "speech-and-language-processing/_index.md",
+    "nlp-pytorch/_index.md",
+    "engineering-wisdom/_index.md",
+    "decode-the-world/_index.md", 
+    "ir/_index.md",
+    "research/_index.md"
+] %}
 
-{% for sec_path in section.extra.sections %}
+{% for sec_path in section_paths %}
 {% set section = get_section(path=sec_path) %}
 <section class="row pt-3 pb-3">
     <div class="col-12 col-lg-9 mx-auto">
