@@ -1,15 +1,13 @@
 {{- define "main" }}
 
 {{ range .Sections }}
-    <article class="first-entry">
-        <header class="entry-header">
-            <h2><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h2>
-            <div class="entry-content md-content">
-                {{ .Description | plainify | htmlUnescape }}
-            </div>
-        </header>
-    </article>
-    
+<section>
+    <header class="entry-header">
+        <h2><a href="{{ .RelPermalink }}">{{ .LinkTitle }}&nbsp;&nbsp;»</a></h2>
+        <div class="entry-content">
+            {{ .Summary | plainify | htmlUnescape }}
+        </div>
+    </header>
 
     {{ range first 3 .Pages }}
     <article class="post-entry">
@@ -25,6 +23,7 @@
         <a class="entry-link" href="{{ .RelPermalink }}"></a>
     </article>
     {{ end }}
+</section>
 {{ end }}
 
 {{- end }}
