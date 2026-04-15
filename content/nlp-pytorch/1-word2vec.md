@@ -12,7 +12,6 @@ params:
   virtual: false
 hex_id: artl-996bcadf5ba25d2a
 head_level: 1
-prev_page:
 next_page:
   hex_id: artl-dcaf9375d08e5d8c
   slug: 2-improve-word2vec

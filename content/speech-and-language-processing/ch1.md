@@ -11,7 +11,6 @@ params:
   virtual: false
 hex_id: artl-091646f519bf1448
 head_level: 1
-prev_page:
 next_page:
   hex_id: artl-8dc834a0d8254655
   slug: ch2

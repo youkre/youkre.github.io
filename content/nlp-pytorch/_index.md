@@ -4,6 +4,7 @@ description: 从零开始学习自然语言处理
 draft: false
 isCJKLanguage: true
 keywords: []
+layout: toc
 slug: ''
 summary: 用 PyTorch 从头实现语言模型
 weight: 2
