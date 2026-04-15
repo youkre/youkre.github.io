@@ -1,9 +1,6 @@
 [submodule "themes/PaperMod"]
 	path = themes/PaperMod
 	url = https://github.com/adityatelange/hugo-PaperMod.git
-[submodule "themes/tabi"]
-	path = themes/tabi
-	url = https://github.com/welpo/tabi.git
 [submodule "themes/zolarwind"]
 	path = themes/zolarwind
 	url = https://github.com/thomasweitzel/zolarwind.git
