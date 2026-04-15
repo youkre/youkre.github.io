@@ -1,10 +1,21 @@
-+++
-title = "PyTorch自然语言处理入门"
-transparent = true
-template = "book.html"
-+++
+---
+title: PyTorch自然语言处理入门
+description: 从零开始学习自然语言处理
+draft: false
+isCJKLanguage: true
+keywords: []
+slug: ''
+summary: 用 PyTorch 从头实现语言模型
+weight: 2
+sort_by: weight
+template: book.html
+paginate_by: 12
+paginate_reversed: true
+transparent: true
+id: crs-9273efe6c5588d59
+---
 
-从零开始学习自然语言处理
+
 
 ## 目录
 

@@ -1,7 +1,24 @@
 ---
 title: 第4章 罗辑回归与文本分类
-date: '2025-12-22T14:30:00+08:00'
+date: '2025-12-22T00:00:00+08:00'
+description: ''
+draft: false
+isCJKLanguage: true
+keywords: []
+slug: ch4
 summary: ''
+params:
+  virtual: false
+hex_id: artl-a9187a04d4645fa5
+head_level: 1
+prev_page:
+  hex_id: artl-cf0aac720aa4facf
+  slug: ch3-07
+  title: 3.7 进阶：困惑度与熵的关系
+next_page:
+  hex_id: artl-b9b2be808c452c4e
+  slug: ch4-01
+  title: 4.1 机器学习与分类
 ---
 
 > En sus remotas p´aginas est´a escrito que los animales se dividen en:<br>
@@ -64,11 +81,3 @@ summary: ''
 正如第6章将要展示的，神经网络可以被理解为多个逻辑回归分类器层层堆叠而成。
 其次，逻辑回归引入了若干对神经网络和语言模型至关重要的基本概念，例如 **sigmoid 函数**、**softmax 函数**、**logit**，以及用于模型学习的核心算法——**梯度下降**（gradient descent）。
 最后，逻辑回归本身也是社会科学和自然科学中最重要的分析工具之一。
-
-
-<nav class="pagination justify-content-between">
-<a href="../ch3-07">3.7 进阶：困惑度与熵的关系</a>
-<a href="../">目录</a>
-<a href="../ch4-01">4.1 机器学习与分类</a>
-</nav>
-

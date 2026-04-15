@@ -1,7 +1,24 @@
 ---
 title: 第 6 章 神经网络
-date: '2025-12-17T08:23:00+08:00'
+date: '2025-12-17T00:00:00+08:00'
+description: ''
+draft: false
+isCJKLanguage: true
+keywords: []
+slug: ch6
 summary: ''
+params:
+  virtual: false
+hex_id: artl-c4e0f0d6e889a930
+head_level: 1
+prev_page:
+  hex_id: artl-3bfea36220344666
+  slug: ch5-09
+  title: 5.9 向量模型的评估
+next_page:
+  hex_id: artl-1d094dd46f348274
+  slug: ch6-01
+  title: 6.1 单元
 ---
 
 > “当单元数量很大时，这类机器可以表现出极为复杂的行为。”
@@ -40,11 +57,3 @@ summary: ''
 本章将介绍使用前馈网络的分类器，首先使用手工构造的特征，然后使用使用第 5 章所学的词嵌入。
 在后续章节中，我们将介绍更多类型的神经网络模型，其中最重要的是**Transformer**和**注意力机制**（第8章），此外还包括**循环神经网络**（第13章）和**卷积神经网络**（第15章）。
 下一章则将引入神经大语言模型这一范式。
-
-
-<nav class="pagination justify-content-between">
-<a href="../ch5-09">5.9 向量模型的评估</a>
-<a href="../">目录</a>
-<a href="../ch6-01">6.1 单元</a>
-</nav>
-

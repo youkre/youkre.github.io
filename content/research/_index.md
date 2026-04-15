@@ -1,15 +1,17 @@
-+++
-title = "政治经济学"
-transparent = true
-paginate_by = 10
-+++
+---
+title: 政治经济学
+description: 反思经济与全球化
+draft: false
+isCJKLanguage: true
+keywords: []
+slug: ''
+summary: 反思经济得失，探索作者提出的全球化寻租理论
+weight: 6
+sort_by: date
+template: section.html
+paginate_by: 12
+paginate_reversed: true
+transparent: true
+id: crs-72aeb26e4ec12471
+---
 
-一些学术思考
-
-## 目录
-
-- [从“买路钱”到“原子本位”：霍尔木兹海峡背后的货币真相](2026-04-10)
-- [撕裂的共生：全球化“分配陷阱”与中美冲突的底层逻辑](2026-04-09)
-- [从“资源诅咒”到“供应链诅咒”：全球化失衡下的寻租国家逻辑重构](2026-04-08)
-- [【课题】2026—2040 全球文明能级跃迁与地缘重构报告](2026-03-15)
-- [【课题】文明的脆弱性与暴力的非对称打击：基于全球视角的“蒙古冲击”反事实研究](2026-03-11)

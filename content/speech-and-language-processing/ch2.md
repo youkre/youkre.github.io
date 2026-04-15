@@ -1,7 +1,24 @@
 ---
 title: 第 2 章 词与词元
-date: '2025-12-20T20:08:00+08:00'
+date: '2025-12-20T00:00:00+08:00'
+description: ''
+draft: false
+isCJKLanguage: true
+keywords: []
+slug: ch2
 summary: ''
+params:
+  virtual: false
+hex_id: artl-8dc834a0d8254655
+head_level: 1
+prev_page:
+  hex_id: artl-091646f519bf1448
+  slug: ch1
+  title: 第 1 章 引言
+next_page:
+  hex_id: artl-d1cb60532a8adf72
+  slug: ch2-01
+  title: 2.1 词
 ---
 
 > 用户：我需要一些帮助，这一点似乎很明确。<br>
@@ -42,11 +59,3 @@ BPE 利用字符序列的简单统计规律，归纳出一个子词（subword）
 
 最后，我们将引入一种名为 **编辑距离**（edit distance）的指标，用于衡量两个词或字符串之间的相似程度，其依据是将一个字符串转换为另一个所需执行的编辑操作次数（包括插入、删除和替换）。
 在 NLP 中，只要需要比较两个词或字符串，编辑距离就会发挥作用，例如在自动语音识别中至关重要的 **词错误率**（word error rate, WER）指标中。
-
-
-<nav class="pagination justify-content-between">
-<a href="../ch1">第 1 章 引言</a>
-<a href="../">目录</a>
-<a href="../ch2-01">2.1 词</a>
-</nav>
-

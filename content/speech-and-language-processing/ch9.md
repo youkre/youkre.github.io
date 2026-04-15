@@ -1,7 +1,24 @@
 ---
 title: 第 9 章 掩码语言模型
-date: '2025-12-19T14:08:00+08:00'
+date: '2025-12-19T00:00:00+08:00'
+description: ''
+draft: false
+isCJKLanguage: true
+keywords: []
+slug: ch9
 summary: ''
+params:
+  virtual: false
+hex_id: artl-b49822e0a718d1c1
+head_level: 1
+prev_page:
+  hex_id: artl-48d8aff0eab1a4f4
+  slug: ch8-09
+  title: 8.9 Transformer 的可解释性
+next_page:
+  hex_id: artl-b30fcc584bb9bb15
+  slug: ch9-01
+  title: 9.1 双向 Transformer 编码器
 ---
 
 > Larvatus prodeo（戴上面具，我继续前行）
@@ -22,11 +39,3 @@ summary: ''
 第 5 章中介绍的方法（如 word2vec 或 GloVe）为词汇表中的每个唯一词 $w$ 学习一个固定的向量嵌入。
 相比之下，上下文嵌入（例如由 BERT 等掩码语言模型所学习到的表示）则为同一个词 $w$ 在不同上下文中生成不同的向量表示。
 虽然第 8 章中的因果语言模型也使用了上下文嵌入，但掩码语言模型所产生的嵌入在作为语义表示方面表现尤为出色。
-
-
-<nav class="pagination justify-content-between">
-<a href="../ch8-09">8.9 Transformer 的可解释性</a>
-<a href="../">目录</a>
-<a href="../ch9-01">9.1 双向 Transformer 编码器</a>
-</nav>
-

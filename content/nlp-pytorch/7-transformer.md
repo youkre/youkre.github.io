@@ -1,7 +1,21 @@
 ---
 title: Transformer：让神经网络学会“全局扫描”——从“逐字阅读”到“一眼看懂”
-date: '2025-10-29T23:32:00+08:00'
+date: '2025-10-29T00:00:00+08:00'
+description: ''
+draft: false
+isCJKLanguage: true
+keywords: []
+slug: 7-transformer
 summary: 使用自注意力机制实现编码器-解码器模型
+params:
+  virtual: false
+hex_id: artl-79b98fdad051170d
+head_level: 1
+prev_page:
+  hex_id: artl-64f87319c8bf973a
+  slug: 6-attention
+  title: 注意力机制：让神经网络学会“重点回顾”
+next_page:
 ---
 
 > 在上一篇《注意力机制》中，我们教会了神经网络“重点回顾”——在翻译或生成时，动态关注输入句子中最相关的词。这就像一个阅卷老师，一边读你的答案，一边回头对照题目，判断你答得对不对。
@@ -978,11 +992,3 @@ Thursday, July 24, 2003        -> 2003-07-24 | Expected: 2003-07-24
 
 - 斋藤康毅《深度学习进阶：自然语言处理》
 - 塞巴斯蒂安·拉施卡《从零构建大模型》
-
-
-<nav class="pagination justify-content-between">
-<a href="../6-attention">注意力机制：让神经网络学会“重点回顾”</a>
-<a href="../">目录</a>
-<span></span>
-</nav>
-
