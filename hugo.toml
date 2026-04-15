@@ -2,6 +2,8 @@ baseURL = 'https://youkre.github.io/'
 languageCode = 'zh-cn'
 title = '优克'
 theme = 'PaperMod'
+enableRobotsTXT = true
+hasCJKLanguage = true
 
 [markup]
     [markup.goldmark]
