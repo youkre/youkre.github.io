@@ -1,24 +1,11 @@
 ---
 title: LSTM：给神经网络装上“长期记忆”
-date: '2025-10-08T00:00:00+08:00'
-description: ''
+description: RNN记性不太好，如果文章太长，前面写的笔记就会慢慢模糊，甚至被新内容覆盖，用长短期记忆网络LSTM来改进
 draft: false
 isCJKLanguage: true
 keywords: []
-slug: 4-lstm
 summary: RNN记性不太好，如果文章太长，前面写的笔记就会慢慢模糊，甚至被新内容覆盖，用长短期记忆网络LSTM来改进
-params:
-  virtual: false
-hex_id: artl-f43a45d8219834ac
-head_level: 1
-prev_page:
-  hex_id: artl-d814d5b1eb0f3930
-  slug: 3-rnn
-  title: RNN：让神经网络学会“记笔记”
-next_page:
-  hex_id: artl-971cdac731b7054f
-  slug: 5-seq2seq
-  title: Seq2Seq：教神经网络“中译英”——从一句话到一段话
+date: '2025-10-08'
 ---
 
 > 上一篇，我们学会了 RNN——一个会写读书笔记的学生。<br>

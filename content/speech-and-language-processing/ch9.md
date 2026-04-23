@@ -1,24 +1,11 @@
 ---
 title: 第 9 章 掩码语言模型
-date: '2025-12-19T00:00:00+08:00'
 description: ''
 draft: false
 isCJKLanguage: true
 keywords: []
-slug: ch9
 summary: ''
-params:
-  virtual: false
-hex_id: artl-b49822e0a718d1c1
-head_level: 1
-prev_page:
-  hex_id: artl-48d8aff0eab1a4f4
-  slug: ch8-09
-  title: 8.9 Transformer 的可解释性
-next_page:
-  hex_id: artl-b30fcc584bb9bb15
-  slug: ch9-01
-  title: 9.1 双向 Transformer 编码器
+date: '2025-12-19'
 ---
 
 > Larvatus prodeo（戴上面具，我继续前行）

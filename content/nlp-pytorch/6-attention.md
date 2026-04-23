@@ -1,25 +1,13 @@
 ---
 title: 注意力机制：让神经网络学会“重点回顾”
-date: '2025-10-08T00:00:00+08:00'
-description: ''
+description: 让解码器在生成每个词时，能“回头看”输入序列，自动找到最相关的部分，它解决了 Seq2Seq 
+  的核心痛点，上下文向量容量有限，长句子信息丢失严重
 draft: false
 isCJKLanguage: true
 keywords: []
-slug: 6-attention
 summary: 让解码器在生成每个词时，能“回头看”输入序列，自动找到最相关的部分，它解决了 Seq2Seq 
   的核心痛点，上下文向量容量有限，长句子信息丢失严重
-params:
-  virtual: false
-hex_id: artl-64f87319c8bf973a
-head_level: 1
-prev_page:
-  hex_id: artl-971cdac731b7054f
-  slug: 5-seq2seq
-  title: Seq2Seq：教神经网络“中译英”——从一句话到一段话
-next_page:
-  hex_id: artl-79b98fdad051170d
-  slug: 7-transformer
-  title: Transformer：让神经网络学会“全局扫描”——从“逐字阅读”到“一眼看懂”
+date: '2025-10-08'
 ---
 
 > 上一篇，我们教会了模型做“中译英”——它能把一句话读懂，写成一张“小纸条”，再翻译出来。<br>

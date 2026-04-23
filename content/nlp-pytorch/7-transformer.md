@@ -1,20 +1,11 @@
 ---
 title: Transformer：让神经网络学会“全局扫描”——从“逐字阅读”到“一眼看懂”
-date: '2025-10-29T00:00:00+08:00'
-description: ''
+description: 使用自注意力机制实现编码器-解码器模型
 draft: false
 isCJKLanguage: true
 keywords: []
-slug: 7-transformer
 summary: 使用自注意力机制实现编码器-解码器模型
-params:
-  virtual: false
-hex_id: artl-79b98fdad051170d
-head_level: 1
-prev_page:
-  hex_id: artl-64f87319c8bf973a
-  slug: 6-attention
-  title: 注意力机制：让神经网络学会“重点回顾”
+date: '2025-10-29'
 ---
 
 > 在上一篇《注意力机制》中，我们教会了神经网络“重点回顾”——在翻译或生成时，动态关注输入句子中最相关的词。这就像一个阅卷老师，一边读你的答案，一边回头对照题目，判断你答得对不对。

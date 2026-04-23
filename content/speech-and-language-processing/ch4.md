@@ -1,24 +1,11 @@
 ---
 title: 第4章 罗辑回归与文本分类
-date: '2025-12-22T00:00:00+08:00'
 description: ''
 draft: false
 isCJKLanguage: true
 keywords: []
-slug: ch4
 summary: ''
-params:
-  virtual: false
-hex_id: artl-a9187a04d4645fa5
-head_level: 1
-prev_page:
-  hex_id: artl-cf0aac720aa4facf
-  slug: ch3-07
-  title: 3.7 进阶：困惑度与熵的关系
-next_page:
-  hex_id: artl-b9b2be808c452c4e
-  slug: ch4-01
-  title: 4.1 机器学习与分类
+date: '2025-12-22'
 ---
 
 > En sus remotas p´aginas est´a escrito que los animales se dividen en:<br>

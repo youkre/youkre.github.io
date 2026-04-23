@@ -1,24 +1,11 @@
 ---
 title: 第 2 章 词与词元
-date: '2025-12-20T00:00:00+08:00'
 description: ''
 draft: false
 isCJKLanguage: true
 keywords: []
-slug: ch2
 summary: ''
-params:
-  virtual: false
-hex_id: artl-8dc834a0d8254655
-head_level: 1
-prev_page:
-  hex_id: artl-091646f519bf1448
-  slug: ch1
-  title: 第 1 章 引言
-next_page:
-  hex_id: artl-d1cb60532a8adf72
-  slug: ch2-01
-  title: 2.1 词
+date: '2025-12-20'
 ---
 
 > 用户：我需要一些帮助，这一点似乎很明确。<br>

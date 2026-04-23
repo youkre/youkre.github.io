@@ -1,24 +1,11 @@
 ---
 title: Seq2Seq：教神经网络“中译英”——从一句话到一段话
-date: '2025-10-08T00:00:00+08:00'
-description: ''
+description: Seq2Seq 就像一个“双人翻译小组”，用编码器把所有意思浓缩成一个“小纸条”，再让解码器看着这张小纸条，用另一种语言说出来
 draft: false
 isCJKLanguage: true
 keywords: []
-slug: 5-seq2seq
 summary: Seq2Seq 就像一个“双人翻译小组”，用编码器把所有意思浓缩成一个“小纸条”，再让解码器看着这张小纸条，用另一种语言说出来
-params:
-  virtual: false
-hex_id: artl-971cdac731b7054f
-head_level: 1
-prev_page:
-  hex_id: artl-f43a45d8219834ac
-  slug: 4-lstm
-  title: LSTM：给神经网络装上“长期记忆”
-next_page:
-  hex_id: artl-64f87319c8bf973a
-  slug: 6-attention
-  title: 注意力机制：让神经网络学会“重点回顾”
+date: '2025-10-08'
 ---
 
 > 上一篇，我们教会了模型记住一句话的“上下文”。<br>

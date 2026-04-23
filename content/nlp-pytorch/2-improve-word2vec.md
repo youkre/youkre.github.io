@@ -1,25 +1,13 @@
 ---
 title: 改进Word2Vec：从“暴力计算”到“聪明学习”
-date: '2025-10-07T00:00:00+08:00'
-description: ''
+description: Word2Vec 原始模型计算太慢？本文带你升级！用 nn.Embedding 替代 
+  one-hot，高效提取词向量。引入负采样，化“大海捞针”为“真假判断”，大幅加速训练。代码实战，教你打造聪明高效的词向量模型。
 draft: false
 isCJKLanguage: true
 keywords: []
-slug: 2-improve-word2vec
 summary: Word2Vec 原始模型计算太慢？本文带你升级！用 nn.Embedding 替代 
   one-hot，高效提取词向量。引入负采样，化“大海捞针”为“真假判断”，大幅加速训练。代码实战，教你打造聪明高效的词向量模型。
-params:
-  virtual: false
-hex_id: artl-dcaf9375d08e5d8c
-head_level: 1
-prev_page:
-  hex_id: artl-996bcadf5ba25d2a
-  slug: 1-word2vec
-  title: 自然语言处理入门：从一句话到词向量——用PyTorch实现Word2Vec
-next_page:
-  hex_id: artl-d814d5b1eb0f3930
-  slug: 3-rnn
-  title: RNN：让神经网络学会“记笔记”
+date: '2025-10-07'
 ---
 
 > 上一篇，我们用一个“填空游戏”教会了模型预测单词——这就是经典的 **CBOW 模型**。<br>

@@ -1,24 +1,11 @@
 ---
 title: 第3章 N元语言模型
-date: '2025-07-19T00:00:00+08:00'
 description: ''
 draft: false
 isCJKLanguage: true
 keywords: []
-slug: ch3
 summary: ''
-params:
-  virtual: false
-hex_id: artl-d7737ef33b71102d
-head_level: 1
-prev_page:
-  hex_id: artl-60933eeabaaa8b01
-  slug: ch2-09
-  title: 2.9 最小编辑距离（Minimum Edit Distance）
-next_page:
-  hex_id: artl-bb414c1ca1fe6391
-  slug: ch3-01
-  title: 3.1 N元模型
+date: '2025-07-19'
 ---
 
 > “你总是那么迷人！”他微笑着说道，这时我偶尔会鞠个躬，他们也注意到了一辆四匹马拉的马车，心生向往。

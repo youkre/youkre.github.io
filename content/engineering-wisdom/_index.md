@@ -4,15 +4,8 @@ description: 工程中的灵光一现
 draft: false
 isCJKLanguage: true
 keywords: []
-slug: ''
 summary: 工程中的灵光一现
-weight: 3
-sort_by: date
-template: section.html
-paginate_by: 12
-paginate_reversed: true
-transparent: true
-id: crs-cf76e1ef448c57ce
+weight: 4
 ---
 
 灵光一现 → 精巧实现 → 无人知晓 → 

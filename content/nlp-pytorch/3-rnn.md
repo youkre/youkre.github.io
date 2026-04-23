@@ -1,24 +1,12 @@
 ---
 title: RNN：让神经网络学会“记笔记”
-date: '2025-10-07T00:00:00+08:00'
-description: ''
+description: RNN 
+  就像一个会写读书笔记的学生，每读一个词，他就翻看之前的笔记，结合新词，写下新的理解，这样，整段话的“上下文”就被保存在了最后一页笔记里
 draft: false
 isCJKLanguage: true
 keywords: []
-slug: 3-rnn
 summary: RNN 就像一个会写读书笔记的学生，每读一个词，他就翻看之前的笔记，结合新词，写下新的理解，这样，整段话的“上下文”就被保存在了最后一页笔记里
-params:
-  virtual: false
-hex_id: artl-d814d5b1eb0f3930
-head_level: 1
-prev_page:
-  hex_id: artl-dcaf9375d08e5d8c
-  slug: 2-improve-word2vec
-  title: 改进Word2Vec：从“暴力计算”到“聪明学习”
-next_page:
-  hex_id: artl-f43a45d8219834ac
-  slug: 4-lstm
-  title: LSTM：给神经网络装上“长期记忆”
+date: '2025-10-07'
 ---
 
 > 上一篇，我们教会了模型从上下文中猜一个词——它像个**瞬间记忆者**，只看眼前。<br>

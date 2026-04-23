@@ -1,24 +1,11 @@
 ---
 title: 第 6 章 神经网络
-date: '2025-12-17T00:00:00+08:00'
 description: ''
 draft: false
 isCJKLanguage: true
 keywords: []
-slug: ch6
 summary: ''
-params:
-  virtual: false
-hex_id: artl-c4e0f0d6e889a930
-head_level: 1
-prev_page:
-  hex_id: artl-3bfea36220344666
-  slug: ch5-09
-  title: 5.9 向量模型的评估
-next_page:
-  hex_id: artl-1d094dd46f348274
-  slug: ch6-01
-  title: 6.1 单元
+date: '2025-12-17'
 ---
 
 > “当单元数量很大时，这类机器可以表现出极为复杂的行为。”

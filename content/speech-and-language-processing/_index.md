@@ -4,15 +4,8 @@ description: 《Speech and Language Processing》（2025版草稿）中文版
 draft: false
 isCJKLanguage: true
 keywords: []
-slug: ''
 summary: 《Speech and Language Processing》（2025版草稿）中文版
-weight: 1
-sort_by: weight
-template: book.html
-paginate_by: 12
-paginate_reversed: true
-transparent: true
-id: crs-a7e1a9a39c87105e
+weight: 6
 ---
 
 原文：[Speech and Language Processing (3rd ed. draft)](https://web.stanford.edu/~jurafsky/slp3/)

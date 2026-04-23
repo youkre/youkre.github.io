@@ -1,24 +1,11 @@
 ---
 title: 第5章 嵌入
-date: '2026-01-22T00:00:00+08:00'
 description: ''
 draft: false
 isCJKLanguage: true
 keywords: []
-slug: ch5
 summary: ''
-params:
-  virtual: false
-hex_id: artl-f35070bb1f98b4d9
-head_level: 1
-prev_page:
-  hex_id: artl-867197656bd88689
-  slug: ch4-15
-  title: 4.15 进阶：梯度公式的推导
-next_page:
-  hex_id: artl-375edb150502e57c
-  slug: ch5-01
-  title: 5.1 词汇语义
+date: '2026-01-22'
 ---
 
 > 荃者所以在鱼，得鱼而忘荃；<br>

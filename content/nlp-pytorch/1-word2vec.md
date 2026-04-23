@@ -1,21 +1,13 @@
 ---
 title: 自然语言处理入门：从一句话到词向量——用PyTorch实现Word2Vec
-date: '2025-09-27T00:00:00+08:00'
-description: ''
+description: 
+  计算机不懂人类语言，它只懂数字。我们要让AI理解“猫”和“狗”是相似的动物，第一步就是把“猫”变成一串数字向量——这就是Word2Vec的核心思想。
 draft: false
 isCJKLanguage: true
 keywords: []
-slug: 1-word2vec
 summary: 
   计算机不懂人类语言，它只懂数字。我们要让AI理解“猫”和“狗”是相似的动物，第一步就是把“猫”变成一串数字向量——这就是Word2Vec的核心思想。
-params:
-  virtual: false
-hex_id: artl-996bcadf5ba25d2a
-head_level: 1
-next_page:
-  hex_id: artl-dcaf9375d08e5d8c
-  slug: 2-improve-word2vec
-  title: 改进Word2Vec：从“暴力计算”到“聪明学习”
+date: '2025-09-27'
 ---
 
 > 注：本系列是学习斋藤康毅《深度学习进阶：自然语言处理》时用PyTorch实现的笔记。
