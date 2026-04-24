@@ -18,7 +18,7 @@
             {{ .Summary | plainify | htmlUnescape }}
         </div>
         <footer class="entry-footer">
-            <span>{{ .Date }}</span>
+            <span>{{ time.Format "2006-01-02" .Date }}</span>
         </footer>
         <a class="entry-link" href="{{ .RelPermalink }}"></a>
     </article>
