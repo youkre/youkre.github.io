@@ -1,0 +1,53 @@
+baseURL = 'https://neefrankie.github.io/'
+locale = 'zh-cn'
+title = 'Unlost Sparks'
+
+theme = 'PaperMod'
+enableRobotsTXT = true
+hasCJKLanguage = true
+timeZone = 'Asia/Shanghai'
+
+[menus]
+    [[menus.main]]
+        name = '自然语言处理导论'
+        url = '/slp3/'
+        weight = 1
+
+    [[menus.main]]
+        name = 'PyTorch NLP 入门'
+        url = '/nlp-getting-started/'
+        weight = 2
+
+[markup]
+    [markup.goldmark]
+        [markup.goldmark.parser]
+            wrapStandAloneImageWithinParagraph = false
+            [markup.goldmark.parser.attribute]
+                block = true
+                title = true
+        [markup.goldmark.renderer]
+            unsafe = true
+        [markup.goldmark.extensions]
+            [markup.goldmark.extensions.passthrough]
+                enable = true
+                [markup.goldmark.extensions.passthrough.delimiters]
+                    inline = [['$', '$'], ['\(', '\)']]
+                    block = [['\[', '\]'], ['$$', '$$']]
+
+[params]
+    ShowShareButtons = true
+    ShowPostNavLinks = true
+    ShowCodeCopyButtons = true
+    [params.assets]
+        favicon = "/favicon.ico"
+    [params.label]
+        icon = "/logo.svg"
+
+    [params.homeInfoParams]
+        Title = "工程中的灵光一现"
+        Content = "灵光一现 → 精巧实现 → 无人知晓 → 自己遗忘”的循环，几乎是每个认真思考的工程师都会经历的隐性知识流失。\n\n写下来，就是对抗遗忘、积累智慧的最有效方式。"
+
+
+[caches]
+    [caches.images]
+        dir = ':cacheDir/images'
