@@ -38,6 +38,7 @@ timeZone = 'Asia/Shanghai'
     ShowShareButtons = true
     ShowPostNavLinks = true
     ShowCodeCopyButtons = true
+    ShowRssButtonInSectionTermList = true
     [params.assets]
         favicon = "/favicon.ico"
     [params.label]
