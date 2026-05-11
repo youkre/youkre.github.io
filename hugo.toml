@@ -51,6 +51,9 @@ timeZone = 'Asia/Shanghai'
     [[params.socialIcons]]
         name = 'rss'
         url = '/index.xml'
+    [[params.socialIcons]]
+        name = 'github'
+        url = 'https://github.com/neefrankie'
         
 
 
