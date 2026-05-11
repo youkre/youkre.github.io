@@ -1,6 +1,6 @@
-baseURL = 'https://neefrankie.github.io/'
+baseURL = 'https://youkre.github.io/'
 locale = 'zh-cn'
-title = 'Unlost Sparks'
+title = '优克'
 
 theme = 'PaperMod'
 enableRobotsTXT = true
