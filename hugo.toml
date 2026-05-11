@@ -42,7 +42,7 @@ timeZone = 'Asia/Shanghai'
     [params.assets]
         favicon = "/favicon.ico"
     [params.label]
-        icon = "/logo.svg"
+        icon = "/logo.png"
 
     [params.homeInfoParams]
         Title = "工程中的灵光一现"
