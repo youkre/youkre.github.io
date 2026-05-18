@@ -7,9 +7,6 @@ keywords: []
 summary: ''
 date: '2026-05-08'
 weight: 4
-params:
-  math: false
-  virtual: false
 ---
 
 
@@ -31,3 +28,4 @@ params:
 - [markdown-it-py 解析](2026-04-29)
 - [mistune 如何解析 directive](2026-05-01)
 - [markdown 脚注解析策略](2026-05-02)
+- [写给选专业的你：别让“天坑论”偷走你的可能性](2026-05-18)
